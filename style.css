@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background: rgb(213, 225, 239);
+}
+.container {
+  height: 100vh;
+}
+.card {
+  border: none;
+  border-radius: 1rem;
+  padding: 0.8rem;
+  background: hsl(0, 0%, 100%);
+  box-shadow: 0px 14px 17px 0px rgba(0, 0, 0, 0.1);
+}
+.card-img-top {
+  border-radius: 0.7rem;
+}
+.card-title {
+  color: rgb(35, 44, 73);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.card-text {
+  color: rgb(147, 151, 159);
+  font-size: 15px;
+}
